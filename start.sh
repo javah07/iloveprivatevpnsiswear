@@ -2,6 +2,10 @@
 
 set -e
 
+echo "Lets get u settled first"
+sudo apt update
+sudo apt install python3 python3-pip python3-venv -y
+
 echo "Updating pip"
 python3 -m pip install --upgrade pip
 
